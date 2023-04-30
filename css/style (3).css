@@ -1,0 +1,134 @@
+a{
+    text-decoration: none;
+}
+
+
+/* ****************************** Header css starts ****************************/
+
+header img{
+    height: 40px;
+    width: 40px;
+    margin-right: 5px;
+    border-radius: 20%;
+}
+header{
+    position: sticky;
+    /* z-index: 10; */
+    width: 100%;
+    background: #FFFF66;
+}
+
+.navbar{
+    padding:10px 0;   
+}
+
+.navbar-brand{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    color: 	#C0C0C0;
+}
+
+.nav-item{
+    font-weight: 800;
+    /* text-transform: uppercase; */
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active .nav-link{
+    background: #dcdcdc;
+    color: #000000;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link{
+    color: #000000;
+    padding: 5px 15px;
+}
+
+.navbar-light .navbar-toggler{
+    border: none;
+    color: #fff;
+    /* border:2px solid #7f7f7f; */
+    border-radius: 0;
+    outline: none;    
+}
+
+.navbar-collapse{
+    background: #ffff66;
+}
+
+/* ****************************** Header css Ends ****************************/
+
+/* ************************** Owl carousel css starts *********************** */
+
+.slider-img{
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 25% 0 25% 0;
+}
+
+.item a{
+    text-decoration: none;
+}
+
+.item a p{
+    color: #2874f0;    
+    text-align: center;
+    display: block;
+}
+
+/* ************************** Owl carousel css Ends *********************** */
+
+/* ************************** College menu Css starts ************************* */
+.menu-part{
+    background:#ffff66;
+}
+
+.menu-part a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu-part p{
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.menu-part:hover{
+    font-weight: normal;
+    background: #c0c0c0;
+    color: black;
+    border-radius: 20%;
+}
+/* ************************** College menu Css Ends *************************** */
+
+/* ************************ Left Notification Css starts*************************/
+.content{
+    width: 300px;
+    margin: 20px auto;
+    background: orange;
+    box-shadow: 1px 1px 10px 1px #333;
+    border-radius: 5px;
+}
+
+.header_notify{
+    text-align: center;
+    color: white;
+    padding: 5px;
+    
+}
+
+.moving-body{
+    padding: 4px;
+    height: 300px;
+}
+
+.m-para{
+    text-align: center;
+    padding: 4px;
+    border-bottom: 1px solid #333;
+}
+/* ************************ Left Notification Css Ends*************************/
